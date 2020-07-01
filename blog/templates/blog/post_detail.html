@@ -1,0 +1,5 @@
+{% if post.image %}
+    <img src="{{ post.image_medium.url }}">
+    <img src="{{ post.image_small.url }}">
+    <img src="{{ post.image.url }}">
+{% endif %}
